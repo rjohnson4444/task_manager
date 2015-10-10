@@ -1,0 +1,15 @@
+---
+tasks:
+- id: 1
+  title: Task 1
+  description: This is my first task
+- id: 2
+  title: Task 2
+  description: ''
+- id: 3
+  title: Task 3
+  description: "This is my task 3. Didn't have a description for the last task.\r\n"
+- id: 4
+  title: Last Task for today
+  description: I had to make one more task...
+total: 4
