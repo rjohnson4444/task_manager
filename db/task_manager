@@ -12,4 +12,9 @@ tasks:
 - id: 4
   title: Last Task for today
   description: I had to make one more task...
-total: 4
+- id: 5
+  title: Task 4
+  description: "This is a task to make sure that the task master still works correctly.
+    Hopefully it does cuz I can't redo it!! \r\n\r\nI already did it like 5 times.....
+    \r\n\r\nCan't do it again."
+total: 5

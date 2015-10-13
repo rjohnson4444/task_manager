@@ -1,9 +1,22 @@
-<form action="/tasks" method="post">
-  <p>Enter a task:</p>
-  <input type="text" name="task[title]">
-  <p>Enter a description:</p>
-  <textarea name="task[description]"></textarea><br/>
-  <input type='submit'>
-</form>
-
-<a href="/">Main Menu</a>
+<div class="well">
+  <h1 class='text-center'>New Task</h1><br/>
+  <form class='form-horizontal' action="/tasks" method="post">
+    <div class="form-group">
+      <label class='col-md-2 control-label'>Enter a task:</label>
+      <div class="col-md-6">
+        <input class='form-control' type="text" name="task[title]">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class='col-md-2 control-label'>Enter a description:</label>
+      <div class="col-md-6">
+        <textarea class='form-control' name="task[description]"></textarea><br/>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-4">
+        <input type='submit' class='btn btn-primary'>
+      </div>
+    </div>
+  </form>
+</div>
